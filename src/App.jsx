@@ -1,12 +1,17 @@
 import './App.css'
 import Header from './components/Header'
+import HeroBanner from './components/HeroBanner'
+import Search from './components/Search'
+import MovieList from './components/MovieList'
 
 function App() {
 
   return (
     <>
       <Header/>
-      <h1 className='text-3xl font-bold underline'>Hello World!</h1>
+      <HeroBanner/>
+      <Search/>
+      <MovieList/>
     </>
   )
 }

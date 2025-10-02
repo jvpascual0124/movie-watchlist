@@ -2,15 +2,10 @@ import NavButton from "./NavButton";
 
 export default function Header() {
     return (
-        <nav className="flex items-center justify-between bg-gray-900 shadow">
+        <nav className="flex items-center justify-between bg-red-800 shadow">
             {/* Logo / Title */}
             <div>
-                <a href="" className="flex items-center p-4">
-                    <img
-                        src="/logo.png"
-                        alt="Watchly Logo"
-                        className="w-13 h-12 mx-2"
-                    />
+                <a href="" className="flex items-center py-6 px-3 hover:bg-red-700">
                     <h1 className="text-2xl font-bold text-white">
                         Watchly
                     </h1>
