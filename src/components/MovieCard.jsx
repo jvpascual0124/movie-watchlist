@@ -5,14 +5,13 @@ export default function MovieCard({ movie }) {
 
   return (
     <div className="bg-gray-900 rounded-2xl overflow-hidden shadow-lg hover:scale-105 transform transition duration-300 w-full max-w-60 mx-auto">
-      {/* Poster */}
+
       <img
         src={posterUrl}
         alt={movie.title}
         className="w-full h-72 sm:h-80 object-cover"
       />
 
-      {/* Content */}
       <div className="p-4">
         <h3 className="text-lg font-semibold text-white truncate">
           {movie.title}
@@ -21,7 +20,6 @@ export default function MovieCard({ movie }) {
           {movie.release_date?.split("-")[0]}
         </p>
 
-        {/* Actions */}
         <div className="flex justify-between items-center mt-4">
           <button className="px-3 py-1 text-sm bg-blue-600 text-white rounded-full hover:bg-blue-700 transition cursor-pointer">
             Add To Watchlist
